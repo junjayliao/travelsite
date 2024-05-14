@@ -1,0 +1,131 @@
+
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style: none;
+}
+.header, .footer {
+    width: 100%;
+    text-align: center;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.nav__brand {
+    font-size: 25px;
+    color: #335576;
+}
+
+.nav__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav__item {
+    padding: 0 10px;
+    color: black;
+    margin-right: 10px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #335576;
+}
+.nav__item--active a {
+    color: #DB7A4E;
+    border-bottom: 2px solid #DB7A4E;
+}
+.footer {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    background-color: #FEFAF5;
+    color: #335576;
+    font-family: Verdana, sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.footer {
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #FEFAF5;
+    color: #335576;
+    font-family: Verdana, sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative; 
+    z-index: 1; 
+}
+
+.footer__section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 45px 0 50px 60px;  
+}
+
+.footer__title, .footer__subtitle {
+    font-size: 18px; 
+    font-weight: bold;
+    margin: 10px 0;
+    align-items: left;
+}
+.footer__title_social{
+    font-size: 18px; 
+    font-weight: bold;
+    margin: 10px 0 30px 0;
+    align-items: left;
+}
+
+.footer__subtitle {
+    color: #DB7A4E;
+    font-size: 8px; 
+}
+
+.footer__hours, .footer__social-icons {
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 40px;
+}
+
+.footer__hours {
+    flex-grow: 0.8; 
+}
+
+.footer__icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.details {
+    display: flex;
+    align-items: left;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 5px;
+}
